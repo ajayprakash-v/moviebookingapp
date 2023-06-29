@@ -1,0 +1,23 @@
+.leftdetails{
+    width: 50vw;
+}
+.dleft h6{
+    margin: 20px 0px;
+    font-size: 1vw;
+}
+.dleft span{
+    opacity: .5;
+}
+.dleft h1{
+    width: 40vw;
+}
+@keyframes leftt{
+    from{
+        transform: translateX(-100px);
+        filter: blur(50px);
+    }
+    to{
+        transform: translateX(0px);
+        filter: blur(0px);
+    }
+}

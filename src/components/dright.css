@@ -1,0 +1,40 @@
+.actorscard{
+    background-color: black;
+    min-width: 10vw;
+    min-height: 12vw;
+    margin: 1vw;
+    overflow: hidden;
+    position: relative;
+}
+.actorscard img{
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+}
+.actorscard span{
+    font-size: .9vw;
+    left: 0;
+    bottom: 0;
+}
+.dright{
+    width: 50vw;
+}
+@keyframes rightt{
+    from{
+        transform: translateX(300px);
+        filter: blur(50px);
+    }
+    to{
+        transform: translateX(0px);
+        filter: blur(0px);
+    }
+}
+@keyframes upp{
+    to{
+        transform: translateY(-150%);
+        filter: blur(50px);
+    }
+}
+.upp{
+    animation: upp 2s;
+}

@@ -1,0 +1,63 @@
+.date{
+    font-size: 10rem;
+    font-family: monospace;
+}
+.shedule span{
+    border:1px solid white;
+    padding: 3px 15px;
+    border-radius: 30px;
+}
+.activeshedule{
+    background-color: white;
+    color: black;
+    animation: changetext .5s;
+}
+.bookmenu span,.link{
+    margin: 10px;
+    border: 1px solid white;
+    padding: 10px 0px;
+    width: 180px;
+    text-align: center;
+    text-decoration: none;
+}
+.activebookmenu{
+    background-color: rgb(219, 189, 16);
+    color: black;
+}
+.changetext{
+    animation: changetext .5s;
+}
+@keyframes changetext{
+    from{
+        transform: translateX(-100px);
+        opacity: 0;
+        filter: blur(5rem);
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+.link span{
+    border: none;
+    color: white;
+}
+.hidden{
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: .5s;
+}
+.fullpagehidden{
+    opacity: 0  !important;
+    transition: 1s;
+}
+@keyframes upp{
+    to{
+        transform: translateY(-150%);
+        filter: blur(50px);
+    }
+}
+.upp{
+    animation: upp 2s;
+}

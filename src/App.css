@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+@font-face {
+    font-family: f3;
+    src: url('../assets/f2.ttf');
+}
+*{
+    font-family: f3;
+}

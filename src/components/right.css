@@ -1,0 +1,30 @@
+.fullcard{
+    width: 700px;
+    height: 300px;
+    overflow: hidden;
+}
+
+
+.poster{
+    width: 13vw;
+}
+.hiddenall{
+    opacity: 0;
+    transform: translateX(700px);
+    transition: .7s;
+}
+.changetext{
+    animation: changetext .5s;
+}
+@keyframes changetext{
+    from{
+        transform: translateX(-100px);
+        opacity: 0;
+        filter: blur(5rem);
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+        filter: blur(0);
+    }
+}

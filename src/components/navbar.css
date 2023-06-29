@@ -1,0 +1,44 @@
+.avatar{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+span{
+    font-size: 1vw;
+}
+span:hover{
+   cursor: pointer; 
+}
+.search,.menu{
+    cursor: pointer;
+}
+ul{
+    position: fixed;
+    z-index: 100;
+    right: 0;
+    top: 10%;
+    transform: translateX(200px);
+    opacity: 0;
+    transition: .5s;
+}
+ul li{
+    font-size: 1vw;
+    margin: .5vw;
+    transition: .5s;
+}
+li:hover{
+    transform: translateX(-20px);
+    scale: 2;
+    transition: .5s;
+}
+.show{
+    opacity: 1;
+    transform: translateX(0);
+    transition: .5s;
+    cursor: pointer;
+}
+.nav{
+    z-index: 100;
+}

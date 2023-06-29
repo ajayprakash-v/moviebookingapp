@@ -1,0 +1,71 @@
+
+.screen{
+    width: 35vw;
+    height: 3vw;
+    background-color:black;
+    border-radius: 100%;
+    scale: 1.1;
+    box-shadow: inset 10px 10px 10px white;
+}
+.seats{
+    width: 35vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+.seatsicons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.seatsicons span{
+    margin: 1vw;
+}
+.activeseat{
+    color: rgb(177, 177, 25);
+    animation: click .5s;
+}
+@keyframes uppp{
+    0%{
+        transform:translateY(200%);
+        filter:blur(10px);
+    }
+    100%{
+        transform:translateY(0);
+        filter: blur(0);
+    }
+}
+.success{
+    width: 100%;
+    height: 100vh;
+    background-color:transparent;
+    position: absolute;
+    top: 0;
+    backdrop-filter: blur(29px);
+    animation: success 2s;
+    overflow: hidden;
+
+}
+
+@keyframes click{
+    from{
+        transform: translateX(-100px);
+        opacity: 0;
+        filter: blur(5rem);
+        scale: 1.5;
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+        scale: 0;
+        filter: blur(0);
+    }
+}
+@keyframes payment{
+    from{
+        transform: translateY(100%);
+    }
+    to{
+        transform: translateY(170px);
+    }
+}

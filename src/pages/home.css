@@ -1,0 +1,14 @@
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+@font-face {
+    font-family:f1 ;
+    src: url('../assets/f2.ttf');
+}
+*{
+    font-family: f1;
+}

@@ -1,0 +1,22 @@
+.changebanner{
+    animation: changebanner 1s ;
+}
+@keyframes  changebanner {
+    from{
+        filter: blur(5rem);
+    }
+    to{
+        filter: blur(0);
+    }
+}
+.fade{
+    animation: fade 2s;
+}
+@keyframes fade{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}

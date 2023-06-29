@@ -1,0 +1,10 @@
+.dates h6{
+    font-size: 2vw;
+    margin-right: 2vw;
+    border: 1px solid white;
+    padding: 10px;
+    cursor: pointer;
+}
+.activedate{
+    border: 1px solid rgb(146, 146, 8) !important;
+}
