@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './navbar.css'
-import {FiChevronDown} from  'react-icons/fi';
 import {BsSearch,BsTicket} from 'react-icons/bs'
 import {AiOutlineMenu} from 'react-icons/ai'
 import{CiLocationOn} from 'react-icons/ci'

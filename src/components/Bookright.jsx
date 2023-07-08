@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './bookright.css'
 import { MdEventSeat } from 'react-icons/md'
-import Bookleft from '../components/bookleft'
+import Bookleft from '../components/Bookleft'
 import { Link, useParams } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import {GoVerified} from 'react-icons/go'

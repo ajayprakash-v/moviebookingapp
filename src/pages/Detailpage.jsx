@@ -3,7 +3,7 @@ import Banner from '../components/Banner'
 import Navbar from '../components/Navbar'
 import Left from '../components/Left'
 import Dlistleft from '../components/Dlistleft'
-import Dlistright from '../components/dlistright'
+import Dlistright from '../components/Dlistright'
 const Detailpage = () => {
   return (
     <div className='w-100' style={{overflow:'hidden'}}>
