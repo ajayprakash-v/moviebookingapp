@@ -42,7 +42,7 @@ cursor:'pointer'}
                     {
                         movielist.map((e)=>{
                             return(
-                                <img src={`/src/assets/images/${e.poster}`} className='poster m-3'/>
+                                <img src={`/assets/images/${e.poster}`} className='poster m-3'/>
                             )
                         })
                     }

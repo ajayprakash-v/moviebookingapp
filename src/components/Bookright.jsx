@@ -157,12 +157,12 @@ const Bookright = () => {
       {success && <div className='success d-flex justify-content-center align-items-center' >
         <div style={{backgroundColor:'white',width:'25%',height:'75%',borderRadius:'10%',transform:'translateY(170px)',animation:'payment 1s'}} >
                 <div className='position-relative' style={{width:'100%',height:'40%',backgroundColor:'black',overflow:'hidden',borderBottom:'5px dashed black'}}>
-                  <img src={`/src/assets/images/${moviedeials[0].cover}`} alt="" style={{width:'100%'}} />
+                  <img src={`/assets/images/${moviedeials[0].cover}`} alt="" style={{width:'100%'}} />
                 </div>
                 <GoVerified className='d-flex justify-content-center w-100 mt-3' style={{fontSize:'50px',color:'green'}}/><br/>
                 <h5 className='text-center text-dark'>Thank you </h5>
                 <p className='text-center text-dark' style={{fontSize:'12px'}}>Your ticket was booked successfully</p>
-                <Link to={'/'} className='text-danger mt-5' style={{textDecoration:'none',}}>Back to home</Link>
+                <Link to={'/moviebookingapp/'} className='text-danger mt-5' style={{textDecoration:'none',}}>Back to home</Link>
         </div>
                 
       </div>}

@@ -21,14 +21,14 @@ const Left = () => {
         setHidden(true)
         dispatch(changehidden(true))
         setTimeout(()=>{
-            navigate(`detailpage/${movieid}`)
+            navigate(`/detailpage/${movieid}`)
         },500)
     }
     const handlenavigatetobooking = () => {
         setHidden(true)
         dispatch(changehidden(true))
         setTimeout(()=>{
-            navigate(`bookticket/${movieid}`)
+            navigate(`/bookticket/${movieid}`)
         },500)
     }
     useEffect(()=>{
