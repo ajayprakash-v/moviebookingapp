@@ -12,7 +12,7 @@ const banner=Idetails.filter((e)=>{
 const hiddenall = useSelector(state => state.hidden.hidden)
 
 
-const coverimg = `assets/images/${banner[0].cover}`
+const coverimg = `/moviebookingapp/assets/images/${banner[0].cover}`
 
 const coverstyle={'width':'100%',}
   return (
