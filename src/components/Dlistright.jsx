@@ -37,7 +37,7 @@ cursor:'pointer',margin:'2vw 0vw',}
             moviedetails.cast.map((e)=>{
               return(
                 <div className='actorscard'>
-                  <img src={`/assets/images/${e.img}`} alt="" className='position-relative'/>
+                  <img src={`assets/images/${e.img}`} alt="" className='position-relative'/>
                   <span className='position-absolute'>{e.name}</span>
                 </div>
               )
