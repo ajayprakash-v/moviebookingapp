@@ -1,7 +1,7 @@
 import React from 'react'
 import './home.css'
 import Navbar from '../components/Navbar'
-import Banner from '../components/banner'
+import Banner from '../components/Banner'
 import Details from '../components/Details'
 
 const Home = () => {
